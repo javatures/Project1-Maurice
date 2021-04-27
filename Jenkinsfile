@@ -8,6 +8,7 @@ pipeline {
                 withGradle(){
                  sh '/gradlew -v'   
                 }
+                echo 'Building more shit, finished now'
             }
         }
         stage('Test') {
