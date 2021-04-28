@@ -7,7 +7,7 @@ pipeline {
                 script {
                     try {
                         sh 'chmod +x ./gradlew' //run a gradle task
-                        sh './gradle build'
+                        sh 'chmod +x ./gradle build'
                     } 
                     finally{echo 'Finished maybe'}
                 }
