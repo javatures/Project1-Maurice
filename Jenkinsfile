@@ -8,6 +8,7 @@ pipeline {
                     try {
                         sh './gradlew' //run a gradle task
                     } 
+                    finally{echo 'Finished maybe'}
                 }
             }
         }
