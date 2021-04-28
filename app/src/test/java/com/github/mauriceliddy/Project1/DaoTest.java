@@ -33,7 +33,7 @@ class DaoTest {
     assertEquals(4, athleteListFromDB.size());
 
   }
-
+/*
   @Test
   public void testWorkoutGetAll() {
 
@@ -46,7 +46,8 @@ class DaoTest {
     assertEquals(20, workoutListFromDB.size());
 
   }
-
+*/
+    
   @Test
   void testMasterListIsPopulated() {
     DataInput dataInput = new DataInput();
