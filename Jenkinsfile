@@ -3,12 +3,12 @@ pipeline {
 
     stages {
         stage('Build') {
-            steps {
-                echo 'Building..'
-                withGradle(){
-                 sh 'gradlew -v'   
+             steps {
+                script {
+                    try {
+                        sh './gradlew' //run a gradle task
+                    } 
                 }
-                echo 'Building more shit, finished now'
             }
         }
         stage('Test') {
