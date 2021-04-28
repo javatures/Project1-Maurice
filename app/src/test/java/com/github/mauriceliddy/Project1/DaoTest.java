@@ -21,6 +21,7 @@ class DaoTest {
          
     }
 
+    /*
     @Test
   public void testAthleteGetAll() {
 
@@ -33,7 +34,7 @@ class DaoTest {
     assertEquals(4, athleteListFromDB.size());
 
   }
-/*
+
   @Test
   public void testWorkoutGetAll() {
 
